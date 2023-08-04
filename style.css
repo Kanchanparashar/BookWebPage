@@ -1,0 +1,223 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    min-width: 1566px;
+    font-family: sans-serif; 
+    overflow-x: hidden;
+   
+}
+#nav{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left img{
+    height: 50px;
+}
+#right{
+   width: 80%;
+   min-width:852px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+#search{
+    width: 70%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#right input{
+    width: 90%;
+    padding: 1em 2em;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    opacity: 0.5;
+
+}
+#right i{
+    font-size: 25px;
+    padding: 10px;
+}
+#nav2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    /* border: 2px solid rgb(211, 208, 208); */
+    box-shadow: 0.1em 0 .4em rgb(166, 166, 163),0.1em 0 .4em rgb(166, 166, 163);
+}
+#nav2 a{
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: black;
+}
+#nav2 a:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: rgb(131, 76, 241);
+}
+#box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#nleft{
+    margin-top: 1em;
+    height: 100%;
+    width: 25%;
+    box-shadow: 5px 0 5px -5px rgba(0,0,0,0.7);
+
+   
+}
+#nright{
+    height: 100%;
+    width: 75%;
+}
+.section{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.section2{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.section h3, .section1 h3, .section2 h3{
+    margin-bottom: 1em;
+    font-size: 2rem;
+    font-weight: 600;
+}
+ul {
+    list-style: disc;
+}
+li{
+    padding: 8px;
+}
+li:hover{
+    color:goldenrod;
+}
+#right-nav{
+    height: 10%;
+    width: 100%;
+    min-width: 1336px;
+    padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#nav-part1{
+    width: 40%;
+    display: flex;
+    gap: .5em;
+    align-items: center;
+    justify-content: center;
+}
+#nav-part1 h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#search1{
+    border: 2px solid black;
+    border-radius: 3rem;
+    display: flex;
+}
+#search1 input{
+    padding: 1em;
+    border: none;
+    font-size: 1rem;
+    text-decoration: none;
+    opacity: 0.5;
+    background-color: transparent;
+    text-align: center;
+}
+#search1 i{
+    font-size: 1rem;
+    padding: 1em;
+}
+.books{
+    height: 60%;
+    width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5em;
+   padding: 60px 0px;
+}
+.card{
+    height: 100%;
+    width: 25%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 1em;
+}
+.card h3, h4{
+    font-weight: 600;
+    opacity: 0.8;
+}
+.card img{
+    height: 100%;
+}
+.card .star{
+    display: flex;
+    gap: 2px;
+}
+.card .star i{
+ color: goldenrod;
+ font-size: 18px;
+}
+.card .star p{
+    opacity: 0.6;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+@media(max-width:852px){
+    #nav{
+        flex-direction: column;
+    }
+    
+
+}
